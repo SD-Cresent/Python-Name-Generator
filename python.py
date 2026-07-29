@@ -4,7 +4,7 @@ import random
 names = ["Birat", "Manish", "Ishan", "Mandip", "Brihaspati"]
 
 window = tk.Tk()
-window.title("Name Picker")
+window.title("Random Name Picker")
 window.geometry("300x220")
 
 winner = random.choice(names)
